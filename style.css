@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/********************************************************************/
+/*Form Background Design Starting from Here ! */
+/********************************************************************/
+
+.wrapper {
+    background-color: #596fa1ad;
+    max-width: 1316px;
+    height: 768px;
+}
+
+.wrapper p.signin {
+    /*
+    position: realative;
+    bottom: 0px;
+    left: 565px;
+*/
+    padding-top: 670px;
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper p.signin a {
+    color: #fff;
+    cursor: pointer;
+}
+
+/********************************************************************/
+/*Form Design starting from here*/
+/********************************************************************/
+
+.form-container {
+    width: 500px;
+    height: 550px;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 430px;
+    border-radius: 10px;
+    padding: 45px 45px 0px 45px;
+    background-color: #dddddd;
+}
+
+.form-container h1 {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.form-container hr {
+    width: 130px;
+    display: inline-block;
+    margin-top: 18px;
+    background-color: #000098;
+    height: 2px;
+    border: none;
+}
+
+.form-container hr.left-line {
+    float: left;
+}
+
+.form-container hr.right-line {
+    float: right;
+}
+
+.form-container p.signup {
+    text-align: center;
+    margin: 15px 0px 40px 0px;
+    word-spacing: 3px;
+}
+
+.form-container .name {
+    margin: 0px 0px 15px 0px;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.form-container input {
+    border: 1px solid #0000009e;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container input.fname {
+    width: 190px;
+    padding: 10px;
+}
+
+.form-container input.lname {
+    width: 190px;
+    padding: 10px;
+    margin-left: 23px;
+}
+
+.form-container input.others {
+    padding: 10px;
+    width: 100%;
+    margin: 0px 0px 22px 0px;
+}
+
+.form-container .agree {
+    display: inline-block;
+    margin-left: 2px;
+    cursor: grab
+}
+
+.form-container p.agree-text {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.form-container p.agree-text a {
+    text-decoration: none;
+    color: green;
+}
+
+.form-container button.btn {
+    display: block;
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: green;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/*****************************************************************************/
+/*Responsive Design Sarting From Here*/
+/*****************************************************************************/
+
+@media all and (max-width:1000px) {
+    .wrapper {
+        width: 100%;
+    }
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 255px;
+    }
+}
+@media all and (max-width:900px) {
+    .wrapper {
+        width: 100%;
+    }
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 210px;
+    }
+}
+@media all and (max-width:800px) {
+    .wrapper {
+        width: 100%;
+    }
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 155px;
+    }
+}
+@media all and (max-width:661px) {
+    .wrapper {
+        width: 100%;
+    }
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 82px;
+    }
+}
+@media all and (max-width:584px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+}
+@media all and (max-width:540px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+}
+@media all and (max-width:746px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 80px;
+    }
+}
+@media all and (max-width:746px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 80px;
+    }
+}
+@media all and (max-width:739px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+}
+@media all and (max-width:616px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+}
+@media all and (max-width:520px) {
+    .wrapper {
+        width: 520px;
+    }
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+    }
+}
+@media all and (max-width:480px) {
+    .form-container {
+        position: absolute;
+        top: 100px;
+        left: 5px;
+    }
+}
+
+
+
